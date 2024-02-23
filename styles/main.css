@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+ font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+ height: 100vh;
+ background-color: hsl(275, 100%, 97%);
+ position: relative;
+ align-items: center;
+ display: flex;
+ justify-content: center
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  z-index: -100;
+}
+
+.faq-card {
+  background-color: white;
+  height: fit-content;
+  width: 540px;
+  border-radius: 18px;
+  box-shadow: rgba(249, 240, 255, 0.2) 0px 7px 29px 0px;
+}
+
+.title {
+  margin: 45px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.title img {
+  margin-right: 22px;
+}
+
+.title-txt {
+  font-size: 55px;
+}
+
+.flex {
+  display: grid;
+  justify-content: center;
+}
+
+.line {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.line:hover {
+  color: hsl(276, 100%, 50%);
+}
+
+.line img {
+  margin-left: 10px;
+}
